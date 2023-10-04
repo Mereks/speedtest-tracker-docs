@@ -31,7 +31,7 @@ As of `v0.12.0` the app key is generated on start-up and it is **OK to ignore th
 
 1. Open the CLI of the Speedtest Docker container
 2. Run `php artisan key:generate --show`
-3. Add the generated string to your environment variables attached to `APP_KEY=generatedstringgoeshere`
+3. Add the generated string to your environment variables attached to `APP_KEY="base64:KEYSTRING"`
 4. Restart the container
 
 </details>
